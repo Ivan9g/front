@@ -1,6 +1,6 @@
 ;$(function(){
 
-    var pxs_url = 'img/Landing.jpg';
+    var pxs_url = 'img/Lending.png';
     var pxs_height = '10000px';
     var pxs_opacity_control = true;
 
