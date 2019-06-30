@@ -1,16 +1,18 @@
-*, *:before, *:after {
-	box-sizing: border-box;
+*{
+	margin: 0px;
+	padding: 0px;
 }
 body {
 	font-family: sans-serif;
-	margin: 0;
 }
 .main {
 	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
+	flex-direction: column;
 	background-color: white;
+  overflow: hidden;
+  width: 100%;
 }
 .header {
 	display: flex;
@@ -41,7 +43,7 @@ body {
 .scene1 {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
 	height: 790px;
 }
@@ -197,4 +199,10 @@ body {
   	font-size: 17px;
     color: #4e5160;
   	line-height: 2;
+}
+@media (max-width: 1000px) {
+.main-text{	
+	padding: 0;
+	width: 50%;
+}
 }
